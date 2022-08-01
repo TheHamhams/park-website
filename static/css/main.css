@@ -1,0 +1,16 @@
+* {
+    border: 1px dotted red
+} 
+
+.background {
+    width: 100%;
+    z-index: -1;
+}
+
+.centered {
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
