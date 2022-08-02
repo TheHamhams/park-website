@@ -2,15 +2,25 @@
     border: 1px dotted red
 } 
 
+h2 {
+    text-align: center;
+}
+
 .background {
     width: 100%;
     z-index: -1;
+    margin: 0;
+    padding: 0;
 }
 
 .centered {
     z-index: 1;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, 50%);
+}
+
+.founder-img {
+    width: 33%;
 }
