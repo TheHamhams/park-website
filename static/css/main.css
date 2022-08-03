@@ -2,7 +2,35 @@
     border: 1px dotted red
 } 
 
+body {
+    background-color: lightgray;
+}
+
 h2 {
+    text-align: center;
+}
+
+form {
+    background-color: rgb(248, 230, 148);
+    color: black;
+    padding: 5px;
+
+}
+
+input, textarea {
+    margin-bottom: 5px;
+}
+
+label {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.see {
+    text-align: center;
+}
+
+.submit {
     text-align: center;
 }
 
@@ -23,4 +51,8 @@ h2 {
 
 .founder-img {
     width: 33%;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.432);
 }
